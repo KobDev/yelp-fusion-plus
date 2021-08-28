@@ -1,6 +1,6 @@
 {
   "name": "@kobdev/yelp-fusion-plus",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "Yelp Fusion for TypeScript",
   "main": "dist/main/index.js",
   "typings": "dist/main/index.d.ts",
