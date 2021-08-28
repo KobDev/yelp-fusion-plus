@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    // To debug, make sure a *.spec.ts file is active in the editor, then run a configuration
+    {
+        "type": "node",
+        "request": "launch",
+        "name": "Debug AVA test file",
+        "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/ava",
+        "runtimeArgs": [
+            "${file}"
+        ],
+        "outputCapture": "std",
+        "skipFiles": [
+            "<node_internals>/**/*.js"
+        ]
+    }
+  ]
+}
